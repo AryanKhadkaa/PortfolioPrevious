@@ -1,0 +1,16 @@
+.boy1{
+    position: absolute;
+    width:600px;
+    height:600px;
+    transform:translate(900px,120px);
+
+}
+
+
+.boy2{
+    position: absolute;
+    height:600px;
+    width:600px;
+    transform:translate(80px,750px);
+}
+

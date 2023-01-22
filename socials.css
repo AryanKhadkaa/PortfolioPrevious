@@ -1,0 +1,98 @@
+.social{
+    padding-right:15px;
+    color:rgb(111, 111, 111);
+}
+
+.social:hover{
+    color:black;
+}
+
+.social-accs{
+    padding:0;
+    margin:0;
+    position:absolute;
+    transform:translate(295px,-180px);
+}
+footer{
+    font-size:15px;
+    text-align:center;
+    margin-top:120px;
+    
+}
+
+.my-social-accs{
+    font-size:25px;
+}
+
+.contact-thru-socials{
+    position:absolute;
+    transform:translate(265px,500px);
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-thru-form{
+    position:absolute;
+    transform:translate(200px,120px);
+    font-size:18px;
+}
+
+#social-sites-line{
+    position: absolute;
+    width:130px;
+   
+    border-radius:0; 
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    transform:translate(285px,550px);
+  
+    
+}
+.my-personal-info{
+    position:relative;
+}
+
+.mypi{
+    padding:30px;
+    font-size:25px;
+  
+}
+
+#mypi-phone{
+    font-size:18px;
+    position:absolute;
+    transform: translate(290px,-522px);
+
+}
+#mypi-address{
+    font-size:18px;
+   position:absolute;
+    transform: translate(290px,-422px);
+}
+#mypi-gmail{
+    position:absolute;
+    font-size:18px;
+    transform: translate(290px,-322px);
+}
+.position-call{
+position:absolute;
+transform: translate(230px,-525px);
+}
+.position-add{
+     position:absolute;
+     transform: translate(230px,-425px);
+}
+
+.position-gmail{
+        position:absolute;
+        transform: translate(230px,-325px);
+ }
+
+ .mypi {
+ padding-top: 0px;
+ padding-left: 0px;
+ padding-bottom: 0px;
+ padding-right: 0px;
+ height: 0px;
+ width: 0px;
+ }

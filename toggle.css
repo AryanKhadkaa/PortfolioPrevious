@@ -1,0 +1,146 @@
+
+.button{
+   transform:translate(1420px,-77px);
+}
+#myToggle{
+    display:none;
+    
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+.toggle{
+    position:relative;
+    display:block;
+    width:60px;
+    height:26px;
+    background:#b1afaf;
+    border-radius:22px;
+    cursor:pointer;
+    transition:background 300ms linear;
+}
+
+.toggle:before{
+    position:absolute;
+    content:"";
+    display:block;
+    width:21px;
+    height:21px;
+    background:rgb(251, 251, 251);
+    border-radius:50%;
+    left:3.5px;
+    transform:translateY(11.5%);
+    transition: left 300ms linear;
+ 
+
+}
+.toggle__input:checked + label{
+    background:rgb(152, 122, 16);
+}
+.toggle__input:checked + label:before{
+    left:35px;
+
+}
+.letters{
+    font-family:'Roboto', sans-serif;
+    letter-spacing:1.6em;
+    line-height:25px;
+    margin-left:8%;   
+    color:#252525;
+}
+.darkmode{
+
+    background:#252525;
+    color:white;
+
+}
+
+/*.darkmode .lists li a{
+    color:white;
+}*/
+
+.darkmode #fname{
+    color:white;
+}
+
+.darkmode .tgl_btn span{
+background:white;
+}
+
+.daynight{
+    margin-left:0.35%;
+    margin-top:-1.4%;
+    position:absolute;
+}
+
+.darkmode .box{
+    border:0.1px solid white;
+    background:#252525;
+    color:white;
+}
+
+.darkmode .my-social-accs{
+    color:white;
+
+}
+
+.darkmode .my-social-accs:hover{
+    color:rgb(0, 43, 84);
+}
+.darkmode .boy1{
+    display:none;
+    
+}
+.darkmode .boy2{
+    display:none;
+    
+}
+.darkmode #info{
+    background-color:black;
+
+
+}
+.darkmode .lists li a{
+    color:white;
+}
+.darkmode #fname{
+    color:white;;
+}
+
+.darkmode .boy1black{
+    position: absolute;
+    height:600px;
+    width:600px;
+    transform:translate(902px,111px);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(img/boy1hdblack.jpg);
+}
+.darkmode .boy2black{
+    position: absolute;
+    height:810px;
+    width:600px;
+    transform:translate(-39px,540px);
+    background-size: cover;
+    background-image: url(img/boy2hdblack.jpg);
+}
+
+.darkmode .hireme{
+    background-color:  white;
+    color:black;
+}
+.darkmode .mycv{
+    background-color: white;
+    color:black;
+}
+
+.darkmode .mycv:hover{
+    background-color: rgb(152, 122, 16);
+    color:black;
+}
+.darkmode .hireme:hover{
+    background-color:rgb(152, 122, 16);
+    color:black;
+}

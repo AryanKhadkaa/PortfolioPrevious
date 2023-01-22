@@ -1,0 +1,20 @@
+*{
+    outline:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    border:none;
+}
+
+.opt li a{
+    color:rgb(255, 255, 255);
+}
+.hl:hover{
+    color:rgb(33, 54, 76);
+}
+
+/* li{
+height:2px;
+margin-left:20px ;
+margin-right:160px;
+}
+*/
