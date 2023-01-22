@@ -1,6 +1,6 @@
 
 .button{
-   transform:translate(1420px,-77px);
+   transform:translate(1440px,-77px);
 }
 #myToggle{
     display:none;
@@ -97,8 +97,8 @@ background:white;
     display:none;
     
 }
-.darkmode #info{
-    background-color:black;
+.darkmode #info-bar{
+    background-color:#121317;
 
 
 }
