@@ -6,12 +6,12 @@ function theme(){
 
 
 const bar = document.querySelector("#info-bar");
-const pscroll = window.pageYOffset;
+var pscroll = window.pageYOffset;
 
              console.log(pscroll)
 
 window.onscroll= function() {
-    const nscroll = window.pageYOffset;
+    var nscroll = window.pageYOffset;
 
                                 console.log(nscroll);
 if(nscroll > pscroll)
