@@ -114,7 +114,13 @@
     font-size:20px;
 
 }
-.fields-head{
+
+.html-info, .css-info, .python-info,.JS-info   {
+    visibility:collapse;
+}
+    
+   
+    .fields-head{
   
     font-size:50px;
     font-family: 'Poppins',Arial,sans-serif;
