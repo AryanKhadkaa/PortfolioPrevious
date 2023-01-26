@@ -61,10 +61,6 @@ html,body{
     color:white;
 }*/
 
-.darkmode #fname{
-    color:white;
-}
-
 .darkmode .tgl_btn span{
 background:white;
 }
@@ -98,12 +94,12 @@ background:white;
     
 }
 .darkmode #info-bar{
-    background-color:#171717k;
+    background-color:#171717;
 
 
 }
 .darkmode .lists li a{
-    color:black;
+    color:white;
 }
 .darkmode #fname{
     color:white;;
