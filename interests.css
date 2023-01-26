@@ -1,5 +1,7 @@
 #myfields{
+    
     position:relative;
+
 
 }
 
@@ -7,8 +9,7 @@
 
 
 .inst1, .inst2, .inst3, .inst4 {
-    font-size:55px;
-  
+    font-size:50px;
     border:0.5px solid ;
     border-radius:50%;
 
@@ -53,7 +54,6 @@
     margin-left:250px;
     margin-top:95px;
     font-size:30px;
-    color:rgb(152, 122, 16);
     font-family: 'Poppins',Arial,sans-serif;
 }
 .css3{
@@ -61,7 +61,6 @@
     margin-left:1000px;
     margin-top:95px;
     font-size:30px;
-    color:rgb(152, 122, 16);
     font-family: 'Poppins',Arial,sans-serif;
 }
 
@@ -71,7 +70,7 @@
     margin-left:250px;
     margin-top:335px;
     font-size:30px;
-    color:rgb(152, 122, 16);
+ 
     font-family: 'Poppins',Arial,sans-serif;
 }
 
@@ -80,7 +79,7 @@
     margin-left:1000px;
     margin-top:335px;
     font-size:30px;
-    color:rgb(152, 122, 16);
+  
     font-family: 'Poppins',Arial,sans-serif;
 }
 
@@ -114,15 +113,13 @@
     font-size:20px;
 
 }
-
-.html-info, .css-info, .python-info,.JS-info   {
-    visibility:collapse;
+.JS-info, .html-info, .css-info, .python-info{
+    visibility: hidden;
 }
-    
-   
-    .fields-head{
+
+.fields-head{
   
-    font-size:50px;
+    font-size:40px;
     font-family: 'Poppins',Arial,sans-serif;
     transform:translateY(60px);
    
