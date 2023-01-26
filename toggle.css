@@ -97,13 +97,13 @@ background:white;
     display:none;
     
 }
-.darkmode #info{
-    background-color:black;
+.darkmode #info-bar{
+    background-color:#171717k;
 
 
 }
 .darkmode .lists li a{
-    color:white;
+    color:black;
 }
 .darkmode #fname{
     color:white;;
