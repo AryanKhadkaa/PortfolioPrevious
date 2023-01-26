@@ -68,3 +68,20 @@ font-size:30px;
   color:#252525;
   font-size:30px;
    }
+
+
+  .breakout{
+    height:60px;
+    width:300px;
+    margin-top:0px;
+  
+    display:flex;
+    justify-content: center;
+    place-items: center
+   }
+
+.BO{
+  position:absolute;
+  color:#252525;
+  font-size:30px;
+   }
