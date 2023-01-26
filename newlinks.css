@@ -1,17 +1,18 @@
 
 .myworks{
 position:relative;
+display: flex;
 
  }
  #myworks-head{
   font-size:50px;
   font-family: 'Poppins',Arial,sans-serif;
-  transform:translateY(60px);
+  transform:translateY(110px);
   color:rgb(152, 122, 16);
   text-align: center;
  }
 .countdown{
-  border:solid 0.1px;
+
   height:60px;
   width:300px;
   margin-top:100px;
@@ -23,9 +24,30 @@ place-items: center;
 }
  .CD{
 position:absolute;
-color:rgb(152, 122, 16);
+color:#252525;
 font-size:30px;
 
- 
 
  }
+
+ .MG{
+  position:absolute;
+  color:#252525;
+  font-size:30px;
+   }
+   .CD:hover,.MG:hover{
+    color:rgb(152, 122, 16);
+  
+  
+   }
+
+ 
+   .memorygame{
+    height:60px;
+    width:300px;
+    margin-top:100px;
+    margin-left:100px;
+    display:flex;
+    justify-content: center;
+    place-items: center
+   }
