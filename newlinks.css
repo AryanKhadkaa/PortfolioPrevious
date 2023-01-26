@@ -69,12 +69,11 @@ font-size:30px;
   font-size:30px;
    }
 
-
-  .breakout{
+   .breakout{
     height:60px;
     width:300px;
-    margin-top:0px;
-  
+    margin-top:450px;
+    margin-left:-700px;
     display:flex;
     justify-content: center;
     place-items: center
