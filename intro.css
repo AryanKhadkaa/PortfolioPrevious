@@ -2,25 +2,36 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
-body{
-    background-color:rgb(255, 255, 255);
+
+section{
+height:690px;
+width:100%;
+
 }
 
+.myfields{
+    height:600px;
+}
+.myworks{
+    height:650px;
 
+}
 .top2{
     position:absolute;
     font-size:20px;
     top:180px;
-    margin-left:240px;
-    margin-top:40px; 
-}
 
+}
+.topIntro{
+    position: relative;
+    margin-left:240px;
+    margin-top:40px;
+}
 .intro{
     position:absolute;
     font-size:75px;
     top:210px;
-    margin-left:235px;
-    margin-top:40px; 
+ 
    /* transform:translate(68%,20%);*/
     
 }
@@ -28,12 +39,13 @@ body{
     font-size:30px;
     position:absolute;
     top:400px;
-    transform:translate(43%,120%);
+   
+   
 }
 
 
 #text_color{
-color:rgb(152, 122, 16);
+color:rgb(139, 112, 15);
 font-weight:800;
 }
 
@@ -53,8 +65,6 @@ font-weight:800;
 
 #home,#myfields,#education,#contact,#about--me{
 position:relative;
-height:690px;
-width:100%;
 
 }
 
@@ -64,7 +74,7 @@ width:100%;
     font-size:50px;
     position:absolute;
     transform: translate(750px,100px);
-    color:rgb(152, 122, 16);
+    color:rgb(139, 112, 15);
     font-weight: 650;
 font-family: 'Poppins',Arial,sans-serif;
 }
@@ -154,7 +164,8 @@ font-family: 'Poppins',Arial,sans-serif;
       width:90px;
       padding:7px;
       position:absolute;
-      transform:translate(235px,520px);
+      margin-left:240px;
+      margin-top:450px;
       cursor:pointer;
       background-color:black;;
       color:white;
@@ -171,12 +182,13 @@ font-family: 'Poppins',Arial,sans-serif;
     padding:7px;
     position:absolute;
     cursor:pointer;
-    transform:translate(350px,520px);
+    margin-left:350px;
+    margin-top:450px;
     background-color: black;
     color:white;
     font-size:15px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   letter-spacing:0.1em;
+    letter-spacing:0.1em;
 }
 
 .my-works:hover{
