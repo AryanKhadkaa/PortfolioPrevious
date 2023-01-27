@@ -1,6 +1,6 @@
 
 .button{
-   transform:translate(1320px,-72px);
+   transform:translate(1340px,-86px);
 }
 #myToggle{
     display:none;
@@ -37,7 +37,7 @@ html,body{
 
 }
 .toggle__input:checked + label{
-    background:rgb(152, 122, 16);
+    background:rgb(139, 112, 15);
 }
 .toggle__input:checked + label:before{
     left:30px;
@@ -52,7 +52,7 @@ html,body{
 }
 .darkmode{
 
-    background:#252525;
+    background-color:#222222;
     color:white;
 
 }
@@ -60,6 +60,10 @@ html,body{
 /*.darkmode .lists li a{
     color:white;
 }*/
+
+.darkmode #fname{
+    color:white;
+}
 
 .darkmode .tgl_btn span{
 background:white;
@@ -86,15 +90,15 @@ background:white;
     color:rgb(0, 43, 84);
 }
 .darkmode .boy1{
-    display:none;
+   visibility: collapse;
     
 }
 .darkmode .boy2{
-    display:none;
+    visibility: collapse;
     
 }
 .darkmode #info-bar{
-    background-color:#171717;
+    background-color:#242424;
 
 
 }
@@ -113,30 +117,33 @@ background:white;
     background-size:cover;
     background-repeat: no-repeat;
     background-image: url(img/boy1hdblack.jpg);
+    visibility: collapse;
 }
 .darkmode .boy2black{
     position: absolute;
     height:810px;
     width:600px;
-    transform:translate(-39px,540px);
+    margin-left:45px;
+    margin-top: 500px;
     background-size: cover;
     background-image: url(img/boy2hdblack.jpg);
+    visibility: collapse;
 }
 
 .darkmode .hireme{
     background-color:  white;
     color:black;
 }
-.darkmode .mycv{
+.darkmode .my-works{
     background-color: white;
     color:black;
 }
 
 .darkmode .mycv:hover{
-    background-color: rgb(152, 122, 16);
+    background-color: rgb(139, 112, 15);
     color:black;
 }
 .darkmode .hireme:hover{
-    background-color:rgb(152, 122, 16);
+    background-color:rgb(139, 112, 15);
     color:black;
 }
